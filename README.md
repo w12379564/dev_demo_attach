@@ -10,4 +10,8 @@
 
 2. 右键点击`docker-compose.yml`文件，选择Compose Up.
 
+![compose](https://github.com/w12379564/dev_demo_attach/blob/master/images/compose.png)
+
 3. 进入debug界面，点击`Remote Debug (C++)`开始调试.
+
+![debug](https://github.com/w12379564/dev_demo_attach/blob/master/images/debug.png)
