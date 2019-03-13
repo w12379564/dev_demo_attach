@@ -1,0 +1,17 @@
+version: '3'
+services:
+  postsvr:
+    container_name: postsvr
+    build: ./
+    networks: 
+      debug-network:
+    privileged: true
+  echoserver:
+    container_name: echoservers
+    image: w12379564/echo_server:0.0.1
+    networks: 
+      debug-network:
+    ports:
+    - 8080:80/tcp  
+networks:
+  debug-network:
