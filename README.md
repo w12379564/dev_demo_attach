@@ -1,6 +1,6 @@
 [.NET Docker remote debug的原理](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.2#debug)
 
-使用VS Code进行debug，测试代码运行在docker container中，利用VS Code的attach功能附加到远程运行中的进程，实现remote debug.
+基于相同的思路进行C++的remote debug,使用VS Code进行debug，测试代码运行在docker container中，利用VS Code的attach功能附加到远程运行中的进程，实现remote debug.
 
 ## Prerequisites:
 [VS Code Docker extension](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
